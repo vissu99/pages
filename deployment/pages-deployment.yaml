@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: iamvissu99/pages:log
+        - image: iamvissu99/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
